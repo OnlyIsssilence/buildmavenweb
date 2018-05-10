@@ -68,6 +68,7 @@ public class RedisClusterPassword {
         // JedisPool.borrowObject最大等待时间
         poolConfig.setMaxWaitMillis(1000L);
         // 开启jmx
+
         poolConfig.setJmxEnabled(true);
         return poolConfig;
     }
