@@ -41,6 +41,7 @@ public class RedisClusterPassword {
 
     private RedisClusterPassword() {
         try {
+            // i am
             // redis节点信息
             Set<HostAndPort> nodeList = new HashSet<HostAndPort>();
             nodeList.add(new HostAndPort(HOST_128, 7000));
